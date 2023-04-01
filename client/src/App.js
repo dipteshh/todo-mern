@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const API_BASE = "http://localhost:3001";
+const API_BASE = "https://todo-mern-backend-9q1n.onrender.com:3001";
 
 function App() {
   const [todos, setTodos] = useState([]);
